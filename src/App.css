@@ -1,0 +1,42 @@
+#container {
+  padding: 60px;
+}
+
+#book {
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(241, 241, 255);
+  border-radius: 5px ;
+  box-shadow: 2px 4px 6px rgb(186, 186, 255);
+}
+
+#title {
+  margin: 15px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#details img {
+  height: 260px;
+  width: 180px;
+  box-shadow: 0px 3px 8px black;
+  border-radius: 5px;
+}
+
+#details p {
+  font-size: 17px;
+  padding: 4px 25px;
+  text-align: justify;
+  line-height: 23px;
+}
+
+#details {
+  display: flex;
+  align-items: start;
+}
+
+#author {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
